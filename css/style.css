@@ -54,20 +54,19 @@ a {
 }
 
 /* Address */
-.contact-address {
+
+.address-list {
   font-style: normal;
+  list-style: none;
 }
-.contact-address a {
+.address-list-item a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
-.contact-address a:hover,
-.contact-address a:focus {
+.address-list-item:hover,
+.address-list-item:focus {
   color: #404bbf;
-}
-.address-list {
-  list-style: none;
 }
 
 /* Main */
@@ -129,7 +128,7 @@ a {
   text-align: center;
   color: #2e2f42;
 }
-.team-list {
+.team-list-item {
   background-color: #ffffff;
   list-style: none;
 }
