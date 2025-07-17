@@ -55,7 +55,9 @@ a {
 }
 
 /* Address */
-
+.address {
+  font-style: normal;
+}
 .address-list {
   list-style: none;
 }
@@ -146,6 +148,8 @@ a {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
   color: #434455;
 }
 
