@@ -162,9 +162,7 @@ a {
 .portfolio-list {
   list-style: none;
 }
-.portfolio-item {
-  /* width: 360px; */
-}
+
 .portfolio-item-title {
   font-weight: 500;
   font-size: 20px;
