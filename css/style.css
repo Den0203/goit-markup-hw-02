@@ -145,11 +145,6 @@ a {
   text-shadow: 0 4px 0 rgba(0, 0, 0, 0.25);
 }
 .squad-list-text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  text-align: center;
   color: #434455;
 }
 
