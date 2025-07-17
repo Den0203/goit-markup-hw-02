@@ -36,7 +36,7 @@ a {
   font-family: "Raleway", sans-serif;
 }
 
-.list {
+.list.item.link {
   color: #2e2f42;
   font-weight: 500;
   line-height: 1.5;
@@ -115,7 +115,7 @@ a {
 
 /* Team Section */
 .team {
-  background-color: #ffffff;
+  background-color: #f4f4fd;
   text-transform: capitalize;
 
   text-shadow: 0px 4px 0 rgba(0, 0, 0, 0.25);
@@ -131,13 +131,13 @@ a {
   list-style: none;
 }
 
-.team-list {
+.team-list-name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  background-color: #f4f4fd;
+  background-color: #ffffff;
   text-shadow: 0 4px 0 rgba(0, 0, 0, 0.25);
 }
 .team-list-text {
