@@ -57,15 +57,15 @@ a {
 
 .address-list {
   list-style: none;
+  font-style: normal;
 }
 .address-list-item a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  font-style: normal;
 }
 .address-list-item a:hover,
-.address-list-item:focus {
+.address-list-item a:focus {
   color: #404bbf;
 }
 
@@ -115,9 +115,9 @@ a {
 }
 
 /* Team Section */
-.team {
-  background-color: #f4f4fd;
+.squad {
   text-transform: capitalize;
+  background-color: #f4f4fd;
 }
 .team-main {
   font-size: 36px;
@@ -128,15 +128,15 @@ a {
 }
 
 .team-list {
+  background-color: #ffffff;
+  list-style: none;
+  letter-spacing: 0.02em;
+}
+.team-list-name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
   color: #2e2f42;
-  background-color: #ffffff;
-  list-style: none;
-}
-.team-list-name {
   text-shadow: 0 4px 0 rgba(0, 0, 0, 0.25);
 }
 .team-list-text {
