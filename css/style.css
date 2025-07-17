@@ -36,7 +36,7 @@ a {
   font-family: "Raleway", sans-serif;
 }
 
-.header-list-item {
+.header-list {
   color: #2e2f42;
   font-weight: 500;
   line-height: 1.5;
@@ -114,6 +114,7 @@ a {
 
 /* Team Section */
 .team {
+  background-color: #ffffff;
   text-transform: capitalize;
 
   text-shadow: 0px 4px 0 rgba(0, 0, 0, 0.25);
@@ -127,12 +128,10 @@ a {
 }
 .team-list {
   list-style: none;
-}
-.team-item {
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
-.team-title-name {
+.team-item-name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
