@@ -11,6 +11,7 @@ footer {
 }
 a {
   text-decoration: none;
+  font-style: normal;
 }
 
 /* Header */
@@ -57,7 +58,6 @@ a {
 
 .address-list {
   list-style: none;
-  font-style: normal;
 }
 .address-list-item a {
   line-height: 1.5;
@@ -115,7 +115,7 @@ a {
 }
 
 /* Team Section */
-.squad {
+.team {
   text-transform: capitalize;
   background-color: #f4f4fd;
 }
@@ -127,19 +127,22 @@ a {
   color: #2e2f42;
 }
 
-.team-list {
-  background-color: #ffffff;
+.squad-list {
   list-style: none;
   letter-spacing: 0.02em;
 }
-.team-list-name {
+.squad-list-item {
+  background-color: #ffffff;
+}
+.squad-list-name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: #2e2f42;
   text-shadow: 0 4px 0 rgba(0, 0, 0, 0.25);
 }
-.team-list-text {
+.squad-list-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
