@@ -36,14 +36,16 @@ a {
   font-family: "Raleway", sans-serif;
 }
 
-.list.item.link {
+.list-item-link {
   color: #2e2f42;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
-  list-style: none;
   text-shadow: 0px 2px 0 rgba(0, 0, 0, 0.25);
+}
+.list {
+  list-style: none;
 }
 .list-item-link:hover,
 .list-item-link:focus {
@@ -128,6 +130,7 @@ a {
   color: #2e2f42;
 }
 .team-list {
+  background-color: #ffffff;
   list-style: none;
 }
 
@@ -137,7 +140,6 @@ a {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  background-color: #ffffff;
   text-shadow: 0 4px 0 rgba(0, 0, 0, 0.25);
 }
 .team-list-text {
