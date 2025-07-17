@@ -117,11 +117,11 @@ a {
 }
 
 /* Team Section */
-.team {
+.squad {
   text-transform: capitalize;
   background-color: #f4f4fd;
 }
-.team-main {
+.squad-main {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
